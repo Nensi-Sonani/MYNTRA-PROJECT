@@ -1,1 +1,109 @@
 /* css for home & living page */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1399px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.w-80{
+    width: 80%;
+    padding: 30px;
+    padding-left: 0;
+}
+.w-20{
+    width: 20%;
+    padding: 20px;
+}
+.w-80 h2{
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Courgette', cursive;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 29px;
+    font-weight: 700;
+    color: #3e4152;
+    letter-spacing: 5px;
+    margin: 20px;
+}
+
+.w-80 .row img{
+    width: 50%;
+    padding: 20px;
+    /* padding-left: 0; */
+    transition: transform .5s;
+}
+.w-80 .row img:hover{
+    transform: scale(1.1);
+    /* overflow: hidden; */
+}
+.w-80 .row{
+    overflow: hidden;
+}
+
+.w-20 p{
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Courgette', cursive;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #3e4152bd;
+}
+
+.w-20 a{
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Courgette', cursive;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #3e4152bd;
+    display: block;
+    padding: 4px 0;
+    text-decoration: none;
+}
+
+.sec-2 .head-img img{
+    width: 100%;
+}
+.sec-2 .row-1 {
+    display: flex;
+    width: 100%;
+    /* padding: 20px; */
+    /* overflow: hidden; */
+}
+.row-1 img{
+    width: 100%;
+    padding: 20px;
+    padding-top: 0;
+    transition: transform .5s;
+}
+.row-1 .img-1{
+    overflow: hidden;
+}
+.row-1 img:hover{
+    transform: scale(1.1);
+}
+
+.img-2{
+    width: 20%;
+}
+.head-2{
+    width: 100%;
+    padding-left: 70px;
+    overflow: hidden;
+}
+
+.first-img{
+   background-image: url("https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/banners/2018/6/8/eff01060-f706-468d-b97c-95cdf43174f91528443826867-Desktop-Home-Banner.jpg");
+   width: 100%;
+   height: 60vh;
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   /* margin: 0px 50px; */
+}

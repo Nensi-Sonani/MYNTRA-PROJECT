@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fdefe8;
+}
+#login input{
+    padding: 10px 20px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.466);
+    width: 100%;
+}
+input:nth-child(4){
+    padding: 10px 40px;
+    margin: 20px;
+    margin-top: 10px;
+    background-color: #ff3f6c;
+    border: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+form{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+#wrapper-log{
+    box-shadow: rgba(208, 102, 171, 0.415) 0px 30px 60px -12px inset, rgba(235, 139, 213, 0.415) 0px 18px 36px -18px inset;
+    background-color: rgba(218, 104, 172, 0.221);
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 80vh;
+    margin: 30px;
+    border-radius: 20px;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+.text{
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Courgette', cursive;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #424553;
+    margin-bottom: 30px;
+}
+
+::placeholder{
+    color: #282c3f;
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Courgette', cursive;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 400;
+}
