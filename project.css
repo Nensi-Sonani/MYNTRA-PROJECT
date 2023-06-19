@@ -98,3 +98,102 @@ img.picks-images {
 .main-picks-2 {
   margin-top: -4px;
 }
+.prices-deals{
+  width: 100%;
+}
+.prices{
+  width: 100%;
+}
+.prices-imag{
+  margin-top: -4px;
+  margin-right: -5px;
+}
+img.prices-images{
+  width: 11.1%;
+  margin-left: -4px;
+}
+.prices-images-2{
+  width: 11.1%;
+  margin-left: -4px;
+}
+.main-prices-2 {
+  margin-top: -4px;
+}
+.category-deals{
+  width: 100%;
+}
+.category{
+  width: 100%;
+}
+img.all-category {
+  width: 16.7%;
+  margin-left: -4px;
+}
+.all-category-1{
+  width: 16.7%;
+  margin-left: -4px;
+}
+.all-category-2{
+  width: 16.7%;
+  margin-left: -4px;
+}
+.all-category-3{
+  width: 16.7%;
+  margin-left: -4px;
+}
+.all-category-4{
+  width: 16.7%;
+  margin-left: -4px;
+}
+.category-img-5 {
+  display: flex;
+  justify-content: center;
+}
+.all-category-5 {
+  width: 20.7%;
+  margin-left: -4px;
+}
+.FreeShippingBanner-sidebar-collapsed {
+  right: 0;
+}
+.FreeShippingBanner-sidebar {
+  position: fixed;
+  bottom: 130px;
+  width: 44px;
+  height: 288px;
+  background-color: #535766;
+  z-index: 6;
+  color: #fff;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.FreeShippingBanner-arrow {
+  width: 0;
+  height: 0;
+  margin: 24px 16px;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+}
+.FreeShippingBanner-arrow-collapsed {
+  border-right: 14px solid #fff;
+}
+.FreeShippingBanner-sidebar-content {
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  -webkit-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  width: 36px;
+  padding: 4px;
+  height: 200px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  -webkit-margin-after: 0;
+  margin-block-end: 0;
+  -webkit-margin-before: 0;
+  margin-block-start: 0;
+  color: #fcfcfc;
+  display: inline-block;
+}
