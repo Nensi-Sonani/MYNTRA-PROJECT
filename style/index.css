@@ -10,9 +10,10 @@ header{
     /* position: relative; */
     z-index: 999;
     background-color: #fff;
+    position: fixed;
+    width: 100%;
 }
-.wrapper{
-    
+.wrapper {
     display: flex;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     width: 100%;
@@ -20,6 +21,7 @@ header{
     align-items: center;
     padding: 0 35px;
     background-color: #fff;
+    /* margin-top: -52px; */
 }
 .logo{
     width: 60px;
@@ -115,5 +117,3 @@ nav ul {
     font-weight: 700;
 }
 /* header css end  */
-
-
