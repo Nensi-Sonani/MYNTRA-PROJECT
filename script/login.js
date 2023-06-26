@@ -15,7 +15,7 @@ document.querySelector("form").addEventListener("submit", function (event) {
     if (email == user.email && password == user.password) {
       alert("logged in");
 
-      // window.location.href="MYNTRA/index.html";
+      // window.location.href="MYNTRA-PROJECT/index.html";
     } else {
       alert("Invalid");
     }
