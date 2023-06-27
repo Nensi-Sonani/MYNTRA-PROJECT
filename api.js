@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let man = [
   {
     id: 1,
@@ -941,3 +942,447 @@ man.map((ele)=>{
   div.append(img,brandname,title,price,oldprice)
   document.getElementById("men").append(div)
 })
+=======
+let kids = [
+  {
+    id: 81,
+    name: "Boys Printed Cotton T-Shirt",
+    price: 346,
+    oldprice: 1332,
+    brandname: "BONKIDS",
+    offer: "(74 % OFF)",
+    size: "8-9Y",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22738762/2023/4/12/003b61a5-450e-4a12-93bc-bfbfec3999a31681249586436BugsBunnyBoysTshirt1.jpg",
+  },
+  {
+    id: 82,
+    name: "Boys Mickey Mouse Printed T-shirt",
+    price: 306,
+    oldprice: 1332,
+    brandname: "BONKIDS",
+    offer: "(77 % OFF)",
+    size: "2-3Y",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/18910878/2022/6/29/e16d6879-8864-49c0-ae2a-5f6bd683f0581656519377064MickeyMouseboystshirt1.jpg",
+  },
+  {
+    id: 83,
+    name: "Boys Looney Tunes T-shirt",
+    price: 293,
+    oldprice: 1332,
+    brandname: "BONKIDS",
+    offer: "(78 % OFF)",
+    size: "2-3Y",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14526388/2021/10/26/9ab6cd8d-1d7a-4779-932e-8a3afd997aaa1635244524629BONKIDSBoysYellowLooneyTunesPrintRoundNeckSlimFitT-shirt1.jpg",
+  },
+  {
+    id: 84,
+    name: "Boys Iron Man Printed T-shirt",
+    price: 293,
+    oldprice: 1332,
+    brandname: "BONKIDS",
+    offer: "(78 % OFF)",
+    size: "2-3Y",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14526380/2021/10/26/26b810cc-163f-4277-9fc8-34f9eec01acc1635244526110BONKIDSBoysBlackIronManPrintedSlimFitT-shirt1.jpg",
+  },
+  {
+    id: 85,
+    name: "Boys Spiderman Printed Slim Fit Pure Cotton T-shirt",
+    price: 398,
+    oldprice: 1660,
+    brandname: "BONKIDS",
+    offer: "(76 % OFF)",
+    size: "2-3Y",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15238122/2021/8/24/d60e1f33-1e40-4df1-8378-1837c0e1082a1629785346782BONKIDSBoysMustardYellowPrintedPocketsSlimFitT-shirt1.jpg",
+  },
+  {
+    id: 86,
+    name: "Boys Superman Slim Fit Pure Cotton T-shirt",
+    price: 293,
+    oldprice: 1332,
+    brandname: "BONKIDS",
+    offer: "(78 % OFF)",
+    size: "4-5Y",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14924470/2021/7/24/eae2a429-6a22-42fd-b7b1-04cb97ea210d1627097277949BONKIDSBoysBlackPrintedSlimFitT-shirt1.jpg",
+  },
+  {
+    id: 87,
+    name: "Boys Spiderman Printed T-shirt",
+    price: 293,
+    oldprice: 1332,
+    brandname: "BONKIDS",
+    offer: "(76 % OFF)",
+    size: "2-3Y",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14526416/2021/9/28/f63c78ea-722d-4673-8bca-79938823e1b81632820358648-BONKIDS-Boys-Blue-Spiderman-Printed-Slim-Fit-T-shirt-4441632-1.jpg",
+  },
+  {
+    id: 88,
+    name: "Boys Printed Cotton T-shirt",
+    price: 293,
+    oldprice: 1332,
+    brandname: "BONKIDS",
+    offer: "(78 % OFF)",
+    size: "2-3Y",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/23512164/2023/6/2/13df62db-dee6-40d2-88ec-f34d2eb7f2d11685718393768BONKIDSBoysWhitePrintedV-NeckT-shirt1.jpg",
+  },
+  {
+    id: 89,
+    name: "Boys Tom & Jerry Print T-shirt",
+    price: 293,
+    oldprice: 1332,
+    brandname: "BONKIDS",
+    offer: "(78 % OFF)",
+    size: "4-5Y",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14526396/2022/1/11/b053dbc8-5660-456e-bed5-c81242b7be981641884481877-BONKIDS-Boys-Red-Tom--Jerry-Printed-Slim-Fit-T-shirt-7661641-2.jpg",
+  },
+  {
+    id: 90,
+    name: "Boys Cotton Printed T-shirt",
+    price: 293,
+    oldprice: 1332,
+    brandname: "BONKIDS",
+    offer: "(78 % OFF)",
+    size: "2-3Y",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/21794822/2023/2/1/1926f68f-bcfa-4da4-8323-daed82812cc11675245257089DinoOrangeBoysT-SHIRT1.jpg",
+  },
+  {
+    id: 91,
+    name: "Girls Printed Ballerinas",
+    price: 379,
+    oldprice: 999,
+    brandname: "YK",
+    offer: "(62 % OFF)",
+    size: "5-6Y",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14523580/2021/9/18/d215e34f-d798-437e-8612-59721fa4f29f1631957130281-YK-Girls-Flats-4631631957129784-1.jpg",
+  },
+  {
+    id: 92,
+    name: "Girls Printed Ballerinas",
+    price: 349,
+    oldprice: 999,
+    brandname: "YK",
+    offer: "(65 % OFF)",
+    size: "4-5Y",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14523572/2021/9/7/4a99d84d-5a71-4afe-a100-e7301edb79f01631011903162-YK-Girls-Flats-931631011902858-1.jpg",
+  },
+  {
+    id: 93,
+    name: "Girls Pure Cotton T-shirt",
+    price: 332,
+    oldprice: 899,
+    brandname: "YK",
+    offer: "(63 % OFF)",
+    size: "8-10Y",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/21817240/2023/2/13/6e03c25b-c036-4670-8107-895cb075bfa81676284499440-YK-Girls-Printed-Drop-Shoulder-Pure-Cotton-T-shirt-664167628-11.jpg",
+  },
+  {
+    id: 94,
+    name: "Girls Solid Sneakers",
+    price: 359,
+    oldprice: 1199,
+    brandname: "YK",
+    offer: "(70 % OFF)",
+    size: "4-5Y",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/17160452/2022/5/6/b444407e-8c72-46d2-8ea3-bf16506830eb1651825065850-YK-Girls-Casual-Shoes-9061651825065489-1.jpg",
+  },
+  {
+    id: 95,
+    name: "Girls Printed T-shirt",
+    price: 332,
+    oldprice: 899,
+    brandname: "YK",
+    offer: "(63 % OFF)",
+    size: "8-10Y",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/21817238/2023/2/23/0d3607e2-45f6-4f1f-b3e1-13d3e4cc06f61677131505168-YK-Girls-Printed-Pure-Cotton-T-shirt-6991677131505092-4.jpg",
+  },
+  {
+    id: 96,
+    name: "Boys Printed Slip-On Sneakers",
+    price: 389,
+    oldprice: 1299,
+    brandname: "YK",
+    offer: "(63 % OFF)",
+    size: "5-6Y",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/17160726/2022/7/8/7c855eaf-cba5-4ebd-a915-17a6c26819111657255201311-YK-Boys-Casual-Shoes-751657255200974-1.jpg",
+  },
+  {
+    id: 97,
+    name: "Girls Cotton Printed T-Shirt",
+    price: 174,
+    oldprice: 699,
+    brandname: "YK",
+    offer: "(75 % OFF)",
+    size: "10-11Y",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16938428/2023/3/1/a7b82096-b6f8-4555-9e57-ef414feb08d41677663651054-YK-Girls-Tshirts-291677663650882-1.jpg",
+  },
+  {
+    id: 98,
+    name: "Girls Pack of 3 Assorted Boy Shorts",
+    price: 389,
+    oldprice: 1299,
+    brandname: "YK",
+    offer: "(70 % OFF)",
+    size: "3-4Y",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/6/11/3dac9d4e-0265-45e0-8520-f5e8a6f2774e1591867075899-1.jpg",
+  },
+  {
+    id: 99,
+    name: "Boys T-shirt with Shorts",
+    price: 374,
+    oldprice: 1499,
+    brandname: "YK",
+    offer: "(75 % OFF)",
+    size: "2-3Y",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/21759286/2023/1/30/d9b16222-cfb5-4307-95aa-fd9d3d03fb511675077792162ClothingSet1.jpg",
+  },
+  {
+    id: 100,
+    name: "Boys T-shirt With Shorts",
+    price: 374,
+    oldprice: 1499,
+    brandname: "YK",
+    offer: "(63 % OFF)",
+    size: "3-4Y",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/21759320/2023/1/30/ec1190db-ee4c-427d-b0b5-ed50293386471675077993138ClothingSet1.jpg",
+  },
+  {
+    id: 101,
+    name: "Set of 3 Ankle-Length Leggings",
+    price: 359,
+    oldprice: 899,
+    brandname: "MINI KLUB",
+    offer: "(60 % OFF)",
+    size: "3-6M",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/17059430/2022/2/5/58a0e329-3aa8-4062-a9d5-95accefb9c481644050435818MINIKLUBGirlsSetOf3PurplePinkSolidAnkle-LengthLeggings1.jpg",
+  },
+  {
+    id: 102,
+    name: "Girls A-Line Dress",
+    price: 359,
+    oldprice: 899,
+    brandname: "MINI KLUB",
+    offer: "(60 % OFF)",
+    size: "2-3Y",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/20634746/2022/11/5/3731bfe0-5305-4cf6-abbc-661eb5cdeffc1667647038069Dresses1.jpg",
+  },
+  {
+    id: 103,
+    name: "Girls Floral Pure Cotton Dress",
+    price: 359,
+    oldprice: 899,
+    brandname: "MINI KLUB",
+    offer: "(60 % OFF)",
+    size: "2-3Y",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/20634682/2022/11/7/54352c73-02c3-43e8-b7b3-eb66d4bac6101667789514539MINIKLUBPinkDress1.jpg",
+  },
+  {
+    id: 104,
+    name: "Infant Boys Printed Pure Cotton Rompers",
+    price: 319,
+    oldprice: 799,
+    brandname: "MINI KLUB",
+    offer: "(60 % OFF)",
+    size: "3-6M",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/18092246/2022/4/29/f6e74977-9bad-4ad6-81d1-874b47c520511651229341089Rompers1.jpg",
+  },
+  {
+    id: 105,
+    name: "Casual Shirt",
+    price: 319,
+    oldprice: 799,
+    brandname: "MINI KLUB",
+    offer: "(60 % OFF)",
+    size: "2-3Y",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/18321680/2022/5/18/308f65fb-313c-4667-ae9c-f323771ec4e51652884373112MINIKLUBBoysWhiteComfortFloralPrintedCasualShirt1.jpg",
+  },
+  {
+    id: 106,
+    name: "Infants 3 Pure Cotton Vests",
+    price: 359,
+    oldprice: 899,
+    brandname: "MINI KLUB",
+    offer: "(60 % OFF)",
+    size: "Newborn",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/20645578/2022/11/7/8d517a84-906b-4a1e-b032-ab208e5172ee1667812587267MINIKLUBBoysPackOf3SolidPureCottonRegular-FitTankTopVests1.jpg",
+  },
+  {
+    id: 107,
+    name: "Infant Girls Printed Romper",
+    price: 319,
+    oldprice: 799,
+    brandname: "MINI KLUB",
+    offer: "(60 % OFF)",
+    size: "3-6M",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/20634690/2022/11/5/cda461b8-513e-42db-8bc8-88444c11398e1667641981559Rompers1.jpg",
+  },
+  {
+    id: 108,
+    name: "Print Top",
+    price: 199,
+    oldprice: 499,
+    brandname: "MINI KLUB",
+    offer: "(60 % OFF)",
+    size: "2-3Y",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/18833126/2022/6/22/fb1e147d-55d3-4cc8-b086-abb1db943e581655913775641Tops1.jpg",
+  },
+  {
+    id: 109,
+    name: "Girls Cotton A-Line Dress",
+    price: 279,
+    oldprice: 699,
+    brandname: "MINI KLUB",
+    offer: "(60 % OFF)",
+    size: "0-3M",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/20645558/2022/11/7/3a2733f2-693a-4aad-9ce4-3c38bcc7f4fb1667803829309Dresses1.jpg",
+  },
+  {
+    id: 110,
+    name: "Boys Straight Fit Joggers Trousers",
+    price: 279,
+    oldprice: 699,
+    brandname: "MINI KLUB",
+    offer: "(60 % OFF)",
+    size: "3-4Y",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22340748/2023/3/15/85c444fe-cd3f-4e85-914e-0039a1cb05a01678877020418MINIKLUBBoysNavyBlueStraightFitEasyWashJoggersTrousers1.jpg",
+  },
+  {
+    id: 111,
+    name: "Set of 2 Alligator Hair Clips",
+    price: 222,
+    oldprice: 305,
+    brandname: "Aye Candy",
+    offer: "(27 % OFF)",
+    size: "Onesize",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/23168866/2023/5/13/fc080b59-0796-4f11-bce1-392800e99e571683966039434AyeCandyBluePinkPastelPairofDoubleBowonAligatorClip1.jpg",
+  },
+  {
+    id: 112,
+    name: "Star Tiara Hairband",
+    price: 211,
+    oldprice: 320,
+    brandname: "Aye Candy",
+    offer: "(34 % OFF)",
+    size: "Onesize",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22425924/2023/3/20/488b85fe-f480-44ca-becf-7244423cb5311679296395974AyeCandyGoldStarTiaraHairband1.jpg",
+  },
+  {
+    id: 113,
+    name: "Set of 2 Alligator Hair Clip",
+    price: 197,
+    oldprice: 379,
+    brandname: "Aye Candy",
+    offer: "(48 % OFF)",
+    size: "Onesize",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/17307076/2022/2/26/71349b20-b46a-47e2-9ca3-09502fbe798c1645859594690AyeCandyGirlsAssortedHairAccessory1.jpg",
+  },
+  {
+    id: 114,
+    name: "Girls Sheer Bow Alligator Clip",
+    price: 222,
+    oldprice: 305,
+    brandname: "Aye Candy",
+    offer: "(27 % OFF)",
+    size: "Onesize",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/23172082/2023/5/13/63cee633-e987-4943-b4c8-d0da6428e9b71683980515192AyeCandyPinkSheerBowonAligatorClip1.jpg",
+  },
+  {
+    id: 115,
+    name: "Girls Embellished Hair Clip",
+    price: 197,
+    oldprice: 379,
+    brandname: "Aye Candy",
+    offer: "(48 % OFF)",
+    size: "Onesize",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/17306848/2022/2/26/1fb87cb0-70ad-40e0-9743-3fd49b9cee781645853412835AyeCandyBigRainbowGlitterBowClip1.jpg",
+  },
+  {
+    id: 116,
+    name: "Girls Embellished Hairband",
+    price: 197,
+    oldprice: 380,
+    brandname: "Aye Candy",
+    offer: "(48 % OFF)",
+    size: "Onesize",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/18881250/2022/6/28/ea913c9f-0ac5-4c69-9574-d4c57a94ce211656400000567AyeCandyRainbowTulleCrownHairband1.jpg",
+  },
+  {
+    id: 117,
+    name: "Crown Viel Bow Hairband",
+    price: 203,
+    oldprice: 333,
+    brandname: "Aye Candy",
+    offer: "(39 % OFF)",
+    size: "Onesize",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22425962/2023/3/20/01fb59b1-5c3c-4c5d-acab-732f4ae3a8261679301800783AyeCandyPinkCrownVielBowHairband1.jpg",
+  },
+  {
+    id: 118,
+    name: "Set of 3 Alligator Hair Clips",
+    price: 271,
+    oldprice: 372,
+    brandname: "Aye Candy",
+    offer: "(27 % OFF)",
+    size: "Onesize",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/23168880/2023/5/13/5f134ae1-97ab-4765-9246-b6a21ea9a02a1683966071756AyeCandyBluePinkPastelSetof3BowsonAligatorClip1.jpg",
+  },
+  {
+    id: 119,
+    name: "Embellished Alligator Hair Clip",
+    price: 197,
+    oldprice: 379,
+    brandname: "Aye Candy",
+    offer: "(48 % OFF)",
+    size: "Onesize",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/17306904/2022/2/26/ea543080-1f6e-46cc-8f88-8c4bea056bdb1645852831817AyeCandyPinkInitialABowClip1.jpg",
+  },
+  {
+    id: 120,
+    name: "Embellished Bow Hairband",
+    price: 192,
+    oldprice: 370,
+    brandname: "Aye Candy",
+    offer: "(48 % OFF)",
+    size: "Onesize",
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/17470248/2022/3/10/3b8b3ccb-8f14-4125-817e-c0a343dd75251646906957615AyeCandySilverBowHairband1.jpg",
+  },
+];
+>>>>>>> main
