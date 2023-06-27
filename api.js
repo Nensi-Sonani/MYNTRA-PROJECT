@@ -921,3 +921,23 @@ let woman = [
       "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/20044370/2022/9/18/b09f2427-c900-4ac5-ab42-b9397e4cbfe21663481928307TokyoTalkiesNude-ColouredBlockMules1.jpg",
   },
 ];
+
+man.map((ele)=>{
+  let div = document.createElement("div");
+  let img = document.createElement("img");
+  img.scr=ele.image;
+  let title=document.createElement("h2")
+  title.innerHTML=ele.name;
+  let price=document.createElement("p")
+  price.innerHTML=ele.price;
+  let oldprice=document.createElement("p")
+  oldprice.innerHTML=ele.oldprice;
+  let brandname=document.createElement("h2")
+  brandname.innerHTML=ele.brandname;
+  let offer=document.createElement("p")
+  offer.innerHTML=ele.offer;
+  let size=document.createElement("p")
+  size.innerHTML=ele.size;
+  div.append(img,brandname,title,price,oldprice)
+  document.getElementById("men").append(div)
+})
