@@ -15,7 +15,11 @@ document.querySelector("form").addEventListener("submit", function (event) {
     if (email == user.email && password == user.password) {
       alert("logged in");
 
+<<<<<<< HEAD
+      window.location.href="/index.html";
+=======
       // window.location.href="MYNTRA-PROJECT/index.html";
+>>>>>>> main
     } else {
       alert("Invalid");
     }

@@ -2,7 +2,7 @@ const header = () => {
   return `<header>
   <div class="wrapper">
 
-      <img class="logo" src="../img/myntra-logo.png" alt="">
+  <a href="/index.html"><img class="logo" src="../img/myntra-logo.png" alt=""></a>
 
       <nav>
           <ul>
